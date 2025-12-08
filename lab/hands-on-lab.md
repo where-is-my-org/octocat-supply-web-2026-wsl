@@ -19,7 +19,8 @@
         ---
         ## Python Guidelines
         When writing Python code, please follow these guidelines:
-        - Add comments using Traditional Chinese.
+        - All comments should be in Traditional Chinese.
+        - All comments should be with "by copilot" appended at the end.
         ```
 
 ### ⚙️ Lab 2 : 利用 prompt file 調整設定
@@ -27,12 +28,12 @@
 - **目的：** 導引使用者以 Agent 模式更新埠號並驗證應用程式仍可正常運作
 - **操作方式：**
     1. 開啟 `.github/port-config.prompt.md` 並閱讀內文
-    2. 啟動 GitHub Copilot Chat，選擇 **Agent** 與 **Claude Sonnet 4**
+    2. 啟動 GitHub Copilot Chat，選擇 **Agent** 與 **Claude Sonnet 4.5**
     3. 在現有對話中執行 **Run prompt in current chat**，輸入新的前後端埠號
     4. 檢查相關設定檔是否更新為指定的埠號值
     5. 依序執行 `npm install && npm run build` 與 `npm run dev`，確認應用程式可成功啟動
 
-### ✨ Lab 3 : 規劃階段：利用自訂對話模式套用於不同操作情境
+### ✨ Lab 3 : 規劃階段：透過自訂對話模式套用於不同操作情境
 #### 利用 Refine Prompt chat mode 進行提示詞優化
 - **示範重點：** 使用專屬聊天模式來改進提示，並提供清晰度評分
 - **目的：** 幫助使用者釐清提示是取得好結果的關鍵，而多數開發者不知道如何改善提示此自訂聊天模式可協助提升提示品質
@@ -52,6 +53,7 @@
     1. 在既有的 session 中選擇 `Plan` chat mode
     2. 輸入以下 prompt
         ```
+        請建立一個購物車頁面，依附圖的設計元素顯示目前購物車內的商品，並支援深色/淺色模式。顯示 25 美元的運費，但當訂單金額超過 150 美元時提供免運費。在導覽列新增購物車圖示，能即時顯示購物車內的商品數量並於新增或移除商品時更新。點擊圖示時導向購物車頁面
         將這些更動計畫新增至新的檔案 planning/implement.md 中
         ```
 ### 🤖 Lab 4 : 實作階段：使用 Agent 模式實作功能
