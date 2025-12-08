@@ -1,6 +1,6 @@
 ---
 description: 'Help me to choose the best model for a specific goal.'
-tools: ['changes', 'codebase', 'fetch', 'findTestFiles', 'githubRepo', 'runCommands', 'search', 'usages']
+tools: ['changes', 'search/codebase', 'fetch', 'githubRepo', 'runCommands', 'search', 'usages']
 ---
 # Choosing the right model
 

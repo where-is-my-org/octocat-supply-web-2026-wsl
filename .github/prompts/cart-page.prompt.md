@@ -1,7 +1,7 @@
 ---
 mode: 'agent'
 description: 'Complete Demo: Add Cart Page and Icon with Vision and Agent Mode'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRepo', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'terminalLastCommand', 'testFailure', 'usages']
+tools: ['edit/editFiles', 'search', 'runCommands', 'runTasks', 'usages', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo']
 ---
 
 # Demo: Cart Page and Icon Implementation

@@ -1,6 +1,6 @@
 ---
 description: "Refine your prompt to ensure that it is clear, complete, and unambiguous."
-tools: ['codebase', 'usages', 'testFailure', 'fetch', 'findTestFiles', 'githubRepo', 'editFiles', 'search']
+tools: ['edit/editFiles', 'search', 'usages', 'testFailure', 'fetch', 'githubRepo']
 ---
 
 # Prompt Refinement Assistant
