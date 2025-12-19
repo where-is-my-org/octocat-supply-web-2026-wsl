@@ -20,7 +20,6 @@
         ## Python Guidelines
         When writing Python code, please follow these guidelines:
         - All comments should be in Traditional Chinese.
-        - All comments should be with "by copilot" appended at the end.
         ```
 
 ### ⚙️ Lab 2 : 利用 prompt file 調整設定
@@ -80,11 +79,13 @@
       - 不安全的 CORS 設定
       - 遺漏安全標頭
       - 不安全的驗證實作
-  4. 切換至 `Edit` 模式並與 Copilot 互動，請它 `請修復 ...` 修補其中一項
+  4. 切換至 `Agent` 模式並與 Copilot 互動，請它 `請修復 ...` 修補其中一項
 
 ### 🔍 Lab 6 : 利用 GitHub Copilot 進行 code review
 - **示範重點：** 示範如何結合 Git 流程啟動 Copilot Code Review
 - **目的：** 確保程式變更已整理並交付給 Copilot 進行自動化審查
 - **操作方式：**
     1. 透過 VS Code 介面開啟 Source Control 視窗
-    2. 點選 coomit 欄位上方的 **Copilot Code Review**，逐步檢視建議 (GitHub Copilot 會針對目前 local 的異動進行評審)
+    2. 點選 comit 欄位上方的 **Copilot Code Review**，逐步檢視建議，可選擇：
+        - Code Review - Unstaged Change
+        - Code Review - Staged Change
