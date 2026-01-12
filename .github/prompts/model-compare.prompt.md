@@ -1,7 +1,7 @@
 ---
-mode: 'agent'
+agent: 'agent'
 description: "Generate a markdown file with a model comparison table for GitHub Copilot models, including pros, cons, and multipliers."
-tools: ['edit/editFiles', 'search', 'fetch']
+tools: ['edit/editFiles', 'search', 'web/fetch']
 ---
 
 # Model Comparison Table
