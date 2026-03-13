@@ -10,6 +10,7 @@
        ```
         ## GitHub Copilot Instructions
         - Must respond in Tranditional Chinese.
+        - Do not execute commands or scripts in the terminal when using Agent Mode. 
        ```
     4. 再次進行詢問，確認回應語言是否依指示更新
     5. 新增 `instructions/python.instructions.md`，填入以下內容：
@@ -48,7 +49,7 @@
        在導覽列新增購物車圖示，能即時顯示購物車內的商品數量並於新增或移除商品時更新，點擊圖示時導向購物車頁面。
        ```
     6. 你應可看到更佳的提示與較高的清晰度評分
-#### 利用 Plan Prompt agent 產生實作文件
+#### 利用 Plan agent 產生實作文件
 - **示範重點：** 使用專屬 agent 來撰寫實作文件
 - **目的：** 幫助使用者產生實作文件進行後續功能實作需求之釐清
 - **操作方式：**
@@ -60,6 +61,27 @@
         在導覽列新增購物車圖示，能即時顯示購物車內的商品數量並於新增或移除商品時更新，點擊圖示時導向購物車頁面。
         將這些更動計畫新增至新的檔案 planning/implement.md 中
         ```
+    3. 查看生成之 `implement.md` 文件
+       
+#### 改用預設 Plan agent 產生實作文件
+- **示範重點：** 使用預設 plan agent 進行功能規畫
+- **目的：** 幫助使用者產生實作文件進行後續功能實作需求之釐清
+- **操作方式：**
+    1. 在新的 session 中選擇系統預設提供之 `Plan` chat mode，模型選擇 **Claude Sonnet 4.5**
+    2. 輸入以下 prompt
+        ```
+        我需要購物車頁面，依附圖的設計元素顯示目前購物車內的商品，並支援深色/淺色模式。
+        顯示 25 美元的運費，但當訂單金額超過 150 美元時提供免運費。
+        在導覽列新增購物車圖示，能即時顯示購物車內的商品數量並於新增或移除商品時更新，點擊圖示時導向購物車頁面。
+        ```
+    3. 透過問答協助釐清規格
+    
+       <img width="503" height="367" alt="image" src="https://github.com/user-attachments/assets/0e8a0fa9-c2d7-4e72-b022-a0527ea20f63" />
+    4. 等待實作計畫完成後，點選 Open in Editor
+       
+       <img width="397" height="86" alt="image" src="https://github.com/user-attachments/assets/5807b43f-22af-4a38-8ab4-2f76577c214c" />
+    5. 查看實作計畫並點選 Keep > Save As Prompt File，確認已生成 prompt 文件
+
 ### 🤖 Lab 4 : 實作階段：使用 Agent 模式實作功能
 - **示範重點：** 利用 Agent Mode 進行功能實作並驗證
 - **目的：** 加速規劃功能的快速實作並獲得測試
@@ -73,7 +95,7 @@
 - **目的：** 展現 Copilot 如何讓開發人員直接取得安全專業知識，協助擴大 AppSec 覆蓋範圍
 - **操作方式：**  
   1. 開啟 Copilot Chat，切換至 `Ask` 模式，模型選擇 **Claude Sonnet 4.5**
-  2. 請 Copilot `@workspace 分析並檢查是否存在明顯的安全性弱點`
+  2. 請 Copilot `#codebase 分析並檢查是否存在明顯的安全性弱點`
   3. 你應該會看到下列問題（視情況不同）：
       - 跨站腳本（XSS）
       - 指令注入
