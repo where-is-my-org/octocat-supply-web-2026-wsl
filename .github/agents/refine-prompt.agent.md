@@ -1,6 +1,7 @@
 ---
+name: 'Refine Prompt'
 description: "Refine your prompt to ensure that it is clear, complete, and unambiguous."
-tools: ['edit/editFiles', 'search', 'usages', 'testFailure', 'fetch', 'githubRepo']
+tools: ['edit/editFiles', 'azure-mcp/search', 'search/usages', 'execute/testFailure', 'web/fetch', 'web/githubRepo']
 ---
 
 # Prompt Refinement Assistant

@@ -1,6 +1,7 @@
 ---
+name: 'BDD'
 description: 'Help me create a BDD feature file based on user requirements.'
-tools: ['edit/createFile', 'edit/createDirectory', 'edit/editFiles', 'search', 'runCommands', 'usages', 'changes', 'fetch', 'githubRepo']
+tools: ['edit/createFile', 'edit/createDirectory', 'edit/editFiles', 'search', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'search/usages', 'search/changes', 'web/fetch', 'web/githubRepo']
 ---
 # BDD Feature File Generator
 
