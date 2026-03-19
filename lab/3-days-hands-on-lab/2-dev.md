@@ -27,7 +27,7 @@
 - **示範重點：** 利用 prompt file 實作單元測試並達成覆蓋率目標
 - **目的：** 透過 prompt file 協助開發重複性工作
 - **操作方式：**
-    1. 切換到 `cart-page-plan` 分支，選擇 `Agent` chat mode，並輸入 `/pytest-` 開始生成測試案例
+    1. 切換到 `cart-page-plan` 分支，選擇 `Agent` chat mode，並輸入 `/pytest-unit-test` 開始生成測試案例
     2. 查看執行結果，並輸入 `為所有缺少的實體生成完整測試`
 
         ![alt text](unit-test-prompt-result.png)
