@@ -1,6 +1,7 @@
 ---
+name: 'Plan'
 description: 'Plan changes to the codebase without changing any code.'
-tools: ['edit/createFile', 'edit/createDirectory', 'edit/editFiles', 'search', 'usages', 'changes', 'fetch', 'githubRepo']
+tools: ['edit/createFile', 'edit/createDirectory', 'edit/editFiles', 'azure-mcp/search', 'search/usages', 'search/changes', 'web/fetch', 'web/githubRepo']
 ---
 
 # Plan changes to the codebase

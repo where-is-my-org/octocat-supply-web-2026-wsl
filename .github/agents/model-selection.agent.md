@@ -1,6 +1,7 @@
 ---
+name: 'Model Selection'
 description: 'Help me to choose the best model for a specific goal.'
-tools: ['changes', 'search/codebase', 'fetch', 'githubRepo', 'runCommands', 'search', 'usages']
+tools: ['search/changes', 'search/codebase', 'web/fetch', 'web/githubRepo', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'azure-mcp/search', 'search/usages']
 ---
 # Choosing the right model
 

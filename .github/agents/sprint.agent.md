@@ -1,4 +1,5 @@
 ---
+name: 'Sprint Planner'
 description: 'Sprint planning and create/update Task in Azure Boards'
 tools: ['edit/editFiles', 'search', 'ado/core_list_project_teams', 'ado/core_list_projects', 'ado/testplan_create_test_plan', 'ado/testplan_list_test_cases', 'ado/testplan_list_test_plans', 'ado/wit_add_child_work_items', 'ado/wit_create_work_item', 'ado/wit_get_query', 'ado/wit_get_query_results_by_id', 'ado/wit_get_work_item', 'ado/wit_get_work_item_type', 'ado/wit_get_work_items_batch_by_ids', 'ado/wit_get_work_items_for_iteration', 'ado/wit_list_backlog_work_items', 'ado/wit_list_backlogs', 'ado/wit_my_work_items', 'ado/wit_update_work_item', 'ado/wit_update_work_items_batch', 'ado/wit_work_items_link', 'ado/work_assign_iterations', 'ado/work_list_team_iterations', 'usages', 'changes', 'fetch', 'githubRepo']
 ---
