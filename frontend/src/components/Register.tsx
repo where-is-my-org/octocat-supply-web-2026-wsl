@@ -145,6 +145,7 @@ export default function Register() {
               type="date"
               value={formData.birthday}
               onChange={handleChange}
+              max={new Date().toISOString().split('T')[0]}
               className={`w-full ${darkMode ? 'bg-gray-700 text-light' : 'bg-gray-100 text-gray-800'} rounded px-3 py-2 transition-colors duration-300`}
               required
             />
