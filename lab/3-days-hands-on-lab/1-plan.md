@@ -86,3 +86,8 @@
        
        <img width="397" height="86" alt="image" src="https://github.com/user-attachments/assets/5807b43f-22af-4a38-8ab4-2f76577c214c" />
     5. 查看實作計畫並點選 Keep > Save As Prompt File，確認已生成 prompt 文件
+    
+- **例外狀況：** 如未出現 handoff 選項，直接於同一 session 中切換至 agent 模式，並輸入以下
+    ```
+    #createFile the plan as is into an untitled file (untitled:plan-${camelCaseName}.prompt.md without frontmatter) for further refinement.
+    ```
