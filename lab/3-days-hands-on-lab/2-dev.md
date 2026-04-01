@@ -1,5 +1,5 @@
 # 🚀 GitHub Copilot Hands-on Lab
-## 🛠️ 開發工具中的 GitHub Copilot Workshop
+## 開發工具中的 GitHub Copilot Workshop - 開發階段
 - 模型選擇建議: **Claude Sonnet 4.5**
 
 ### 🤖 Lab 4 : 實作階段：使用 Agent 模式實作功能

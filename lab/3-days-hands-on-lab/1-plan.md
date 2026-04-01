@@ -1,5 +1,5 @@
 # 🚀 GitHub Copilot Hands-on Lab
-## 🛠️ 開發工具中的 GitHub Copilot Workshop
+## 開發工具中的 GitHub Copilot Workshop - 盤點及分析階段
 - 模型選擇建議: **Claude Sonnet 4.5**
 
 ### 🧩 Lab 1 : 調整 custom instructions

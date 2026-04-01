@@ -2,6 +2,19 @@
 name: 'Refine Prompt'
 description: "Refine your prompt to ensure that it is clear, complete, and unambiguous."
 tools: ['edit/editFiles', 'azure-mcp/search', 'search/usages', 'execute/testFailure', 'web/fetch', 'web/githubRepo']
+handoffs: 
+- label: Handoff to debug agent
+  agent: Debug Mode Instructions
+  prompt: The prompt has been refined and is ready for implementation. Handoff to the debug agent to implement the changes and verify that the issue is resolved.
+  send: true
+- label: Handoff to security review agent
+  agent: SE: Security
+  prompt: The prompt has been refined and is ready for implementation. Handoff to the security review agent to review the changes for security vulnerabilities and provide feedback.
+  send: true
+- label: Open in Editor
+  agent: agent
+  prompt: '#createFile the plan as is into an untitled file (`untitled:plan-${camelCaseName}.md` without frontmatter) for further refinement.'
+  send: true
 ---
 
 # Prompt Refinement Assistant
