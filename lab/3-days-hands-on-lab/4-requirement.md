@@ -7,7 +7,7 @@
 - **目的：** 利用 Copilot Chat 的 Requirement Analyst 模式，從需求文件中提取並整理成 User Story，為後續的任務分解和測試案例生成做好準備
 - **操作方式：**  
   1. 開啟 Copilot Chat，切換至 `Requirement Analyst` 模式
-  2. 輸入 prompt `將 #file:requirement.md 進行分析並整理成 user-story.md 並儲存於 planning/ 下`
+  2. 輸入 prompt `將 #requirement.md 進行分析並整理成 user-story.md 並儲存於 planning/ 下`
 
 ---
 
@@ -17,7 +17,7 @@
 - **目的：** 透過 Copilot Chat 的 Requirement Analyst 模式，從已生成的 User Story 中提取任務，並整理成 Task 文件，為後續的開發和測試提供明確的指引
 - **操作方式：**  
   1. 在同一個對話中，同樣保留在 `Requirement Analyst` 模式
-  2. 輸入 prompt `根據 #file:user-story.md 生成 task.md，一樣儲存於 planning 下`
+  2. 輸入 prompt `根據 #user-story.md 生成 task.md，一樣儲存於 planning 下`
 
 ---
 
@@ -27,7 +27,7 @@
 - **目的：** 運用 Test Case Analyst 模式，從 User Story 中提取測試需求，並生成對應的測試案例文件，確保開發過程中的質量控制和驗收標準的明確性
 - **操作方式：**  
   1. 於同一個對話中，切換至 `Test Case Analyst` 模式
-  2. 輸入 prompt `根據 #file:user-story.md 生成 test-case.md，儲存於 planning 下`
+  2. 輸入 prompt `根據 #user-story.md 生成 test-case.md，儲存於 planning 下`
 
 ---
 
